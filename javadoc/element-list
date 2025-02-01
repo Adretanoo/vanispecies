@@ -1,0 +1,7 @@
+unnamed package
+com.vika.vanispecies.appui.forms
+com.vika.vanispecies.appui.views
+com.vika.vanispecies.domain.uow
+com.vika.vanispecies.domain.validators
+com.vika.vanispecies.persistence.entitys
+com.vika.vanispecies.persistence.repository

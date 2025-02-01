@@ -2,9 +2,24 @@ package com.vika.vanispecies.domain.validators;
 
 import java.util.Scanner;
 
+/**
+ * Клас для валідації введення користувача в адміністративному меню.
+ */
 public class InputAdminMenuValidator {
+
+    /**
+     * Сканер для зчитування введених даних.
+     */
     private static Scanner scanner = new Scanner(System.in);
 
+    /**
+     * Метод отримує та перевіряє введене користувачем число.
+     * Число має бути у діапазоні від 1 до 5.
+     * Якщо введене значення некоректне, користувач отримує повідомлення про помилку
+     * і йому пропонується ввести значення ще раз.
+     *
+     * @return валідний вибір користувача (число від 1 до 5).
+     */
     public static int getValidatedOption() {
         while (true) {
             System.out.print("Виберіть опцію: ");
@@ -22,5 +37,4 @@ public class InputAdminMenuValidator {
             }
         }
     }
-
 }

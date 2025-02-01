@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.vika.vanispecies.appui.forms"},{"l":"com.vika.vanispecies.appui.views"},{"l":"com.vika.vanispecies.domain.uow"},{"l":"com.vika.vanispecies.domain.validators"},{"l":"com.vika.vanispecies.persistence.entitys"},{"l":"com.vika.vanispecies.persistence.repository"}];updateSearchResults();
